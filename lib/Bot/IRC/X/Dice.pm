@@ -30,9 +30,17 @@ sub init {
 __END__
 =pod
 
-=head1 SYNOPSIS
+=begin :badges
+
+=for markdown
+[![Build Status](https://travis-ci.org/gryphonshafer/Bot-IRC-X-Dice.svg)](https://travis-ci.org/gryphonshafer/Bot-IRC-X-Dice)
+[![Coverage Status](https://coveralls.io/repos/gryphonshafer/Bot-IRC-X-Dice/badge.png)](https://coveralls.io/r/gryphonshafer/Bot-IRC-X-Dice)
+
+=end :badges
 
 =for test_synopsis BEGIN { die "SKIP: Bot::IRC may or may not be available." }
+
+=head1 SYNOPSIS
 
     use Bot::IRC;
 
@@ -46,9 +54,20 @@ __END__
 This L<Bot::IRC> plugin provides the means for the bot to perform simulated
 dice rolls.
 
-=head2 SEE ALSO
+=head1 SEE ALSO
 
-L<Bot::IRC>
+You can look for additional information at:
+
+=for :list
+* L<Bot::IRC>
+* L<GitHub|https://github.com/gryphonshafer/Bot-IRC-X-Dice>
+* L<CPAN|http://search.cpan.org/dist/Bot-IRC-X-Dice>
+* L<MetaCPAN|https://metacpan.org/pod/Bot::IRC::X::Dice>
+* L<AnnoCPAN|http://annocpan.org/dist/Bot-IRC-X-Dice>
+* L<Travis CI|https://travis-ci.org/gryphonshafer/Bot-IRC-X-Dice>
+* L<Coveralls|https://coveralls.io/r/gryphonshafer/Bot-IRC-X-Dice>
+* L<CPANTS|http://cpants.cpanauthors.org/dist/Bot-IRC-X-Dice>
+* L<CPAN Testers|http://www.cpantesters.org/distro/T/Bot-IRC-X-Dice.html>
 
 =for Pod::Coverage init
 

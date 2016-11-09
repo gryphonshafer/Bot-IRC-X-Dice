@@ -4,18 +4,12 @@ Bot::IRC::X::Dice - Bot::IRC plugin for dice rolling
 
 # VERSION
 
-version 1.01
+version 1.02
+
+[![Build Status](https://travis-ci.org/gryphonshafer/Bot-IRC-X-Dice.svg)](https://travis-ci.org/gryphonshafer/Bot-IRC-X-Dice)
+[![Coverage Status](https://coveralls.io/repos/gryphonshafer/Bot-IRC-X-Dice/badge.png)](https://coveralls.io/r/gryphonshafer/Bot-IRC-X-Dice)
 
 # SYNOPSIS
-
-# DESCRIPTION
-
-This [Bot::IRC](https://metacpan.org/pod/Bot::IRC) plugin provides the means for the bot to perform simulated
-dice rolls.
-
-## SEE ALSO
-
-[Bot::IRC](https://metacpan.org/pod/Bot::IRC)
 
     use Bot::IRC;
 
@@ -23,6 +17,25 @@ dice rolls.
         connect => { server => 'irc.perl.org' },
         plugins => ['Dice'],
     )->run;
+
+# DESCRIPTION
+
+This [Bot::IRC](https://metacpan.org/pod/Bot::IRC) plugin provides the means for the bot to perform simulated
+dice rolls.
+
+# SEE ALSO
+
+You can look for additional information at:
+
+- [Bot::IRC](https://metacpan.org/pod/Bot::IRC)
+- [GitHub](https://github.com/gryphonshafer/Bot-IRC-X-Dice)
+- [CPAN](http://search.cpan.org/dist/Bot-IRC-X-Dice)
+- [MetaCPAN](https://metacpan.org/pod/Bot::IRC::X::Dice)
+- [AnnoCPAN](http://annocpan.org/dist/Bot-IRC-X-Dice)
+- [Travis CI](https://travis-ci.org/gryphonshafer/Bot-IRC-X-Dice)
+- [Coveralls](https://coveralls.io/r/gryphonshafer/Bot-IRC-X-Dice)
+- [CPANTS](http://cpants.cpanauthors.org/dist/Bot-IRC-X-Dice)
+- [CPAN Testers](http://www.cpantesters.org/distro/T/Bot-IRC-X-Dice.html)
 
 # AUTHOR
 
