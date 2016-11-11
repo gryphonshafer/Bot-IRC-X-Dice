@@ -38,8 +38,6 @@ __END__
 
 =end :badges
 
-=for test_synopsis BEGIN { die "SKIP: Bot::IRC may or may not be available." }
-
 =head1 SYNOPSIS
 
     use Bot::IRC;
@@ -48,6 +46,7 @@ __END__
         connect => { server => 'irc.perl.org' },
         plugins => ['Dice'],
     )->run;
+
 
 =head1 DESCRIPTION
 
