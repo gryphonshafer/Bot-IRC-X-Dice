@@ -1,6 +1,8 @@
 Revision history for Bot::IRC::X::Dice
 
 {{$NEXT}}
+
+1.02      2016-11-10 18:34:14-08:00 America/Los_Angeles
         - Anchor match pattern for improved co-plugin operation
         - Fixed stupid POD bug that scrambled synopis display
 
