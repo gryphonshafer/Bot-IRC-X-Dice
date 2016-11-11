@@ -10,7 +10,6 @@ use Games::Dice 'roll';
 
 sub init {
     my ($bot) = @_;
-    my $expr = Math::Expression->new( PrintErrFunc => sub {} );
 
     $bot->hook(
         {
@@ -52,6 +51,8 @@ __END__
 
 This L<Bot::IRC> plugin provides the means for the bot to perform simulated
 dice rolls.
+
+    roll <dice expression like "2d6+2">
 
 =head1 SEE ALSO
 

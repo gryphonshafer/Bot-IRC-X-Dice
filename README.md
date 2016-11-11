@@ -4,7 +4,7 @@ Bot::IRC::X::Dice - Bot::IRC plugin for dice rolling
 
 # VERSION
 
-version 1.02
+version 1.03
 
 [![Build Status](https://travis-ci.org/gryphonshafer/Bot-IRC-X-Dice.svg)](https://travis-ci.org/gryphonshafer/Bot-IRC-X-Dice)
 [![Coverage Status](https://coveralls.io/repos/gryphonshafer/Bot-IRC-X-Dice/badge.png)](https://coveralls.io/r/gryphonshafer/Bot-IRC-X-Dice)
@@ -22,6 +22,8 @@ version 1.02
 
 This [Bot::IRC](https://metacpan.org/pod/Bot::IRC) plugin provides the means for the bot to perform simulated
 dice rolls.
+
+    roll <dice expression like "2d6+2">
 
 # SEE ALSO
 
