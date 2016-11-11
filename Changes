@@ -1,6 +1,8 @@
 Revision history for Bot::IRC::X::Dice
 
 {{$NEXT}}
+
+1.03      2016-11-10 20:35:28-08:00 America/Los_Angeles
         - Removed pointless call to math expression module
 
 1.02      2016-11-10 18:34:14-08:00 America/Los_Angeles
