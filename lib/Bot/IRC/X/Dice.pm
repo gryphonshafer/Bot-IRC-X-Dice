@@ -62,9 +62,7 @@ You can look for additional information at:
 =for :list
 * L<Bot::IRC>
 * L<GitHub|https://github.com/gryphonshafer/Bot-IRC-X-Dice>
-* L<CPAN|http://search.cpan.org/dist/Bot-IRC-X-Dice>
 * L<MetaCPAN|https://metacpan.org/pod/Bot::IRC::X::Dice>
-* L<AnnoCPAN|http://annocpan.org/dist/Bot-IRC-X-Dice>
 * L<Travis CI|https://travis-ci.org/gryphonshafer/Bot-IRC-X-Dice>
 * L<Coveralls|https://coveralls.io/r/gryphonshafer/Bot-IRC-X-Dice>
 * L<CPANTS|http://cpants.cpanauthors.org/dist/Bot-IRC-X-Dice>
