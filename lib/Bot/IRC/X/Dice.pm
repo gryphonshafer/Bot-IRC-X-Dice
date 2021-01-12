@@ -2,8 +2,7 @@ package Bot::IRC::X::Dice;
 # ABSTRACT: Bot::IRC plugin for dice rolling
 
 use 5.014;
-use strict;
-use warnings;
+use exact;
 
 use Games::Dice 'roll';
 
