@@ -1,6 +1,7 @@
 Revision history for Bot::IRC::X::Dice
 
 {{$NEXT}}
+        - Override some minimum version reqs in dist.ini
 
 1.04      2021-01-12 08:12:54-08:00 America/Los_Angeles
         - Migrate to Test2::V0 and add exact
